@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PR7_Aubov_PR-21.102</string>
+    <string name="textView2"><b>Иван</b>,\n приветствуем в нашем приложении</string>
+    <string name="bar1">\t Введите ваше имя</string>
+    <string name="bar2">\t Введите вашу фамилию</string>
+    <string name="bar3">\t Введите ваш контактный номер</string>
+    <string name="check">Согласен(-а) с условиями использования и политикой конфиденциальности</string>
+    <string name="signup">Зарегестрироваться</string>
+    <string name="info">Подробная информация</string>
+    <string name="proposal">Предложения</string>
+    <string name="reg">Регистрация</string>
+    <string name="help">Помощь</string>
+    <string name="signin">Вход</string>
+</resources>

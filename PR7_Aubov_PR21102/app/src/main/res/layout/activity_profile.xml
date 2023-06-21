@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/i"
+            />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@color/main"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/free_icon_man_avatar_3954071" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@color/main"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/free_icon_question_mark_3247442" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textSize="16sp"
+        android:text="@string/textView2" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp">
+
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            tools:srcCompat="@tools:sample/avatars" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Контакты"
+        android:onClick="GoToContacts"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Предложения" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            tools:srcCompat="@tools:sample/avatars" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Нет текста" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Нет текста" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        app:srcCompat="@drawable/nature" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/info"/>>
+</androidx.appcompat.widget.LinearLayoutCompat>
